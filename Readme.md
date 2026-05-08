@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Евгений Клюкин](https://up.htmlacademy.ru/htmlcss-individual/2/user/2695685).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Остаповец](https://htmlacademy.ru/profile/seraphim).
 
 ---
 
