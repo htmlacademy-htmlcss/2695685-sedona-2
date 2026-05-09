@@ -335,11 +335,11 @@ img {
   flex-wrap: wrap;
 }
 
-.advantages-item:nth-child(even):not(:first-child):not(:last-child) {
+.advantages-item:nth-child(even):not(.advantages-item-big) {
   background-color: #83B3D31F;
 }
 
-.advantages-item:nth-child(odd):not(:first-child):not(:last-child) {
+.advantages-item:nth-child(odd):not(.advantages-item-big) {
   background-color: #83B3D333;
 }
 
