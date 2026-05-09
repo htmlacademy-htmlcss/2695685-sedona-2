@@ -335,6 +335,14 @@ img {
   flex-wrap: wrap;
 }
 
+.advantages-item:nth-child(even):not(:first-child):not(:last-child) {
+  background-color: #83B3D31F;
+}
+
+.advantages-item:nth-child(odd):not(:first-child):not(:last-child) {
+  background-color: #83B3D333;
+}
+
 .advantages-item-big {
   background-color: #82B3D3;
   display: flex;
@@ -352,9 +360,7 @@ img {
   min-height: 385px;
   padding-inline: 85px;
   padding-block: 113px 112px;
-  background-color: rgba(131, 179, 211, 0.12);
 }
-
 
 .advantages-title {
   position: relative;
@@ -382,10 +388,6 @@ img {
 
 .contrast {
   color: #ffffff;
-}
-
-.colored {
-  background-color: rgba(131, 179, 211, 0.2);
 }
 
 .advantages-image {
@@ -654,6 +656,7 @@ img {
 
 .breadcrumbs-list {
   display: flex;
+  flex-wrap: wrap;
   margin: 0 0 39px;
   font-size: 16px;
   line-height: 20px;
@@ -831,6 +834,7 @@ img {
   width: 143px;
   height: 48px;
   padding: 12px 20px;
+  padding-right: 40px;
   border: none;
   font-family: inherit;
   font-size: 18px;
@@ -1040,6 +1044,7 @@ img {
 
 .catalog-card {
   display: grid;
+  align-self: start;
   grid-template-columns: repeat(2, 140px);
   padding: 20px;
   row-gap: 16px;
@@ -1165,6 +1170,7 @@ img {
 /*pagination*/
 .pagination-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   padding: 0;
   margin: 0;
